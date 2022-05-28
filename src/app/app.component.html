@@ -1,0 +1,21 @@
+<body>
+    <div [@routeAnimations]="o && o.activatedRouteData 
+      && o.activatedRouteData['animation']">
+        <router-outlet #o="outlet"></router-outlet>
+    </div>
+
+    <div class="add-box dip-none"> <i class="fa fa-fw fa-cart-arrow-down shopcardicon" routerLinkActive="active" routerLink="/dashboard/shop-dashboard/cart-page"></i><span class="count-number-fixed">1</span>
+    </div>
+    <a class="audiobtn">
+        <i id="welplaybtn" class="fa fa-play pl-01" aria-hidden="true" data-placement="top" data-toggle="tooltip" title="Welcome Message!" (click)="playAudio1()"></i>
+        <span id="button">
+      <i id="pausebtn" class="fa fa-play pl-01" aria-hidden="true" data-placement="top" data-toggle="tooltip"
+        title="Relaxing Sea Waves Stop!"></i>
+      <i id="playbtn" class="fa fa-pause" aria-hidden="true" data-placement="top" data-toggle="tooltip"
+        title="Relaxing Sea Waves Play!"></i>
+    </span>
+    </a>
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+</body>
+
+<!-- <app-card-slider></app-card-slider> -->

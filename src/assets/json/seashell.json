@@ -1,0 +1,194 @@
+[
+    {
+        "seashell": [
+            {
+                "id": "01",
+                "productName": "Blowing Shark",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "02",
+                "productName": "Kali Cowdi",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-c-kc.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "03",
+                "productName": "Lakshmi cowdi",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-c-lc.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "04",
+                "productName": "Pooja cowdi",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-c-pc.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "05",
+                "productName": "Ganesh shank",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-gs-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "06",
+                "productName": "Gomathi charkra - Big",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-gc-b-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "07",
+                "productName": "Gomathi charkra - Small",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-gc-s-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "08",
+                "productName": "Valmburi shank - Colour",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-vs-c-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "09",
+                "productName": "Valmburi shank - Natural White",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-vs-nw-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "10",
+                "productName": "Valmburi shank - White Grind",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/seashell/ss-vs-wg-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            }
+        ]
+    },
+    {
+        "pearls": [
+            {
+                "id": "01",
+                "productName": "Bracelet",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/pearls/p-b-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "02",
+                "productName": "Earrings",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/pearls/p-e-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "03",
+                "productName": "Raw pearl",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/pearls/p-rp-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "04",
+                "productName": "single pearls",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/pearls/p-sp-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            }
+        ]
+    },
+    {
+        "spiritualitem": [
+            {
+                "id": "01",
+                "productName": "Lotus Mala",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/spiritualitems/si-lm-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "02",
+                "productName": "Rudraksha Mala",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/spiritualitems/si-rm-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "03",
+                "productName": "Sandal Mala",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/spiritualitems/si-sm-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "04",
+                "productName": "Spadika Mala",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/spiritualitems/si-sml-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            },
+            {
+                "id": "05",
+                "productName": "Tulasi Mala",
+                "value": "100.00",
+                "discount": "5 ",
+                "src": "assets/images/spiritualitems/si-tm-01.png",
+                "content": "Multi Flower Honey: This honey is collected from variegated flowers with a variety of beneficial factors. This mild flavored honey is suitable for people belonging to any age groups."
+            }
+        ]
+    },
+    {
+        "newupdatedproducts": [
+            {
+                "id": "1",
+                "productName": "Valmburi Shank ",
+                "src": "assets/images/seashell/ss-vs-c-02.png",
+                "value": "100.00",
+                "discount": "5 ",
+                "content": "Valmburi shank colour product has been arrival in our product list.Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis."
+            },
+            {
+                "id": "2",
+                "productName": "Raw Pearls",
+                "src": "assets/images/pearls/p-rp-02.png",
+                "value": "100.00",
+                "discount": "5 ",
+                "content": "Raw Pearls product has been arrival in our product list.Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis."
+            },
+            {
+                "id": "3",
+                "productName": "Lotus Mala ",
+                "src": "assets/images/spiritualitems/si-lm-02.png",
+                "value": "100.00",
+                "discount": "5 ",
+                "content": "Lotus Mala product has been arrival in our product list.Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis."
+            }
+        ]
+    }
+]

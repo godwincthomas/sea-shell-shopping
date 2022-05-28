@@ -1,0 +1,570 @@
+[
+    {
+        "categoryName": "SeaShell",
+        "products": [
+            {
+                "id": 1,
+                "productName": "Valampuri Sangu",
+                "productType":"Natural Color",
+                "scienceName": "Busycon contrarium",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Ideal gift on any occasion like housewarming, birthday gift, promotions etc,.",
+                    "an be Used for  Pooja Purposes Sea shell & Conch Collection"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [
+                    {
+                        "sizeNum": "4",
+                        "amount": "199"
+                    },
+                    {
+                        "sizeNum": "5",
+                        "amount": "270"
+                    },
+                    {
+                        "sizeNum": "6",
+                        "amount": "360"
+                    },
+                    {
+                        "sizeNum": "7",
+                        "amount": "560"
+                    }
+                ],
+                "typeDetail": "",
+                "quantityKg": [],
+                "quantityMm": []
+            },
+            {
+                "id": 2,
+                "productName": "Valampuri Sangu",
+                "productType":"White",
+                "scienceName": "Busycon contrarium",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Ideal gift on any occasion like housewarming, birthday gift, promotions etc,.",
+                    "an be Used for  Pooja Purposes Sea shell & Conch Collection"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [
+                    {
+                        "sizeNum": "1",
+                        "amount": "99"
+                    },
+                    {
+                        "sizeNum": "2",
+                        "amount": "125"
+                    },
+                    {
+                        "sizeNum": "3",
+                        "amount": "175"
+                    },
+                    {
+                        "sizeNum": "4",
+                        "amount": "205"
+                    },
+                    {
+                        "sizeNum": "5",
+                        "amount": "290"
+                    },
+                    {
+                        "sizeNum": "6",
+                        "amount": "390"
+                    },
+                    {
+                        "sizeNum": "7",
+                        "amount": "600"
+                    },
+                    {
+                        "sizeNum": "8",
+                        "amount": "850"
+                    }
+                ],
+                "typeDetail": "",
+                "quantityKg": [],
+                "quantityMm": []
+            },
+            {
+                "id": 3,
+                "productName": "Valampuri Sangu",
+                "productType":"Grainting",
+                "scienceName": "Busycon contrarium",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Ideal gift on any occasion like housewarming, birthday gift, promotions etc,.",
+                    "an be Used for  Pooja Purposes Sea shell & Conch Collection"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [
+                    {
+                        "sizeNum": "4",
+                        "amount": "250"
+                    },
+                    {
+                        "sizeNum": "5",
+                        "amount": "360"
+                    },
+                    {
+                        "sizeNum": "6",
+                        "amount": "490"
+                    },
+                    {
+                        "sizeNum": "7",
+                        "amount": "800"
+                    }
+                ],
+                "typeDetail": "",
+                "quantityKg": [],
+                "quantityMm": []
+            },
+            {
+                "id": 4,
+                "productName": "Gomathi Chakra",
+                "productType":"Small Size",
+                "scienceName": "-",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja Purposes",
+                    "Used to remove negative vibrations"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [],
+                "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "125"
+                    },
+                    {
+                        "sizeNum": "500",
+                        "amount": "250"
+                    },
+                    {
+                        "sizeNum": "1",
+                        "amount": "480"
+                    }
+                ],
+                "typeDetail": "( 100+ pieces is 250 gram )"
+            },
+            {
+                "id": 5,
+                "productName": "Gomathi Chakra",
+                "productType":"Medium Size",
+                "scienceName": "-",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja Purposes",
+                    "Used to remove negative vibrations"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [],
+                "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "180"
+                    },
+                    {
+                        "sizeNum": "500",
+                        "amount": "375"
+                    },
+                    {
+                        "sizeNum": "1",
+                        "amount": "650"
+                    }
+                ],
+                "typeDetail": "( 65+ pieces is 250 gram )"
+            },
+            {
+                "id": 6,
+                "productName": "Gomathi Chakra",
+                "productType":"Raja gomathi chakkaram",
+                "scienceName": "-",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja Purposes",
+                    "Used to remove negative vibrations"
+                ],
+                "quantityPcs": 1,
+                "price": "70",
+                "quantitySize": [],
+                 "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "350"
+                    }
+                ],
+                "typeDetail": "( 7-10 pcs/250 gram)"
+            },
+            {
+                "id": 7,
+                "productName": "Gomathi Chakra",
+                "productType":"Vishnu Chakkaram",
+                "scienceName": "-",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja Purposes",
+                    "Used to remove negative vibrations"
+                ],
+                "quantityPcs": 1,
+                "price": "70",
+                "quantitySize": [],
+                "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "400"
+                    }
+                ],
+                "typeDetail": "( 40pcs/250 gram)"
+            },
+            {
+                "id": 8,
+                "productName": "Indian Blowing shankh",
+                "productType":"Yellow Chovi",
+                "scienceName": "turbinella pyrums",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja purpose",
+                    "Makes Lungs stronger",
+                    "Clear the face wrinkles",
+                    "Increases the shining of the eyes"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [],
+                "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "175"
+                    },
+                    {
+                        "sizeNum": "500",
+                        "amount": "350"
+                    },
+                    {
+                        "sizeNum": "1",
+                        "amount": "675"
+                    }
+                ],
+                "typeDetail": "( 100+ pieces is 250 gram )"
+            },
+            {
+                "id": 9,
+                "productName": "Indian Blowing shankh",
+                "productType":"Grey Chovi",
+                "scienceName": "turbinella pyrums",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja purpose",
+                    "Makes Lungs stronger",
+                    "Clear the face wrinkles",
+                    "Increases the shining of the eyes"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [],
+                "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "85"
+                    },
+                    {
+                        "sizeNum": "500",
+                        "amount": "150"
+                    },
+                    {
+                        "sizeNum": "1",
+                        "amount": "285"
+                    }
+                ],
+                "typeDetail": "( 100+ pieces is 250 gram )"
+            },
+            {
+                "id": 10,
+                "productName": "Indian Blowing shankh",
+                "productType":"White Chovi",
+                "scienceName": "turbinella pyrums",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja purpose",
+                    "Makes Lungs stronger",
+                    "Clear the face wrinkles",
+                    "Increases the shining of the eyes"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [],
+                "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "120"
+                    },
+                    {
+                        "sizeNum": "500",
+                        "amount": "240"
+                    },
+                    {
+                        "sizeNum": "1",
+                        "amount": "470"
+                    }
+                ],
+                "typeDetail": "( 140+ pieces is 250 gram )"
+            },
+            {
+                "id": 11,
+                "productName": "Indian Blowing shankh",
+                "productType":"Black Chovi",
+                "scienceName": "turbinella pyrums",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja purpose",
+                    "Makes Lungs stronger",
+                    "Clear the face wrinkles",
+                    "Increases the shining of the eyes"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [],
+                "quantityMm": [],
+                "quantityKg": [
+                    {
+                        "sizeNum": "250",
+                        "amount": "175"
+                    },
+                    {
+                        "sizeNum": "340",
+                        "amount": "240"
+                    },
+                    {
+                        "sizeNum": "1",
+                        "amount": "650"
+                    }
+                ],
+                "typeDetail": "( 35+ pieces is 250 gram )"
+            },
+            {
+                "id": 12,
+                "productName": "Five Finger Shell",
+                "scienceName": "-",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja purpose",
+                    "Makes Lungs stronger",
+                    "Clear the face wrinkles",
+                    "Increases the shining of the eyes"
+                ],
+                "quantityPcs": 0,
+                "quantityMm": [],
+                "quantitySize": [
+                    {
+                        "sizeNum": "3",
+                        "amount": "25"
+                    },
+                    {
+                        "sizeNum": "4",
+                        "amount": "55"
+                    },
+                    {
+                        "sizeNum": "5",
+                        "amount": "70"
+                    }
+                ],
+                "typeDetail": "",
+                "quantityKg": []
+            },
+            {
+                "id": 13,
+                "productName": "Elephant Mulli Shell",
+                "scienceName": "-",
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "usage": [
+                    "Pooja purpose",
+                    "Makes Lungs stronger",
+                    "Clear the face wrinkles",
+                    "Increases the shining of the eyes"
+                ],
+                "quantityPcs": 0,
+                "quantitySize": [
+                    {
+                        "sizeNum": "4",
+                        "amount": "60"
+                    },
+                    {
+                        "sizeNum": "5",
+                        "amount": "90"
+                    },
+                    {
+                        "sizeNum": "6",
+                        "amount": "120"
+                    }
+                ],
+                "typeDetail": "",
+                "quantityKg": [],
+                "quantityMm": []
+            }
+        ]
+    },
+    {
+        "categoryName": "Sea shell handicrafts",
+        "products": [
+            {
+                "id": 14,
+                "productName": "Sea shell half curtains",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantityPcs": 1,
+                "quantitySize":[],
+                "quantityMm": [],
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "85",
+                "usage": [
+                    "Decorative"
+                ]
+            },
+            {
+                "id": 15,
+                "productName": "Sea  shell full curtains",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantitySize":[],
+                "quantityMm": [],
+                "quantityPcs": 1,
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "155",
+                "usage": [
+                    "Decorative"
+                ]
+            },
+            {
+                "id": 16,
+                "productName": "Sea shell pen stand",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantitySize":[],
+                "quantityMm": [],
+                "quantityPcs": 1,
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "27",
+                "usage": [
+                    "Decorative"
+                ]
+            },
+            {
+                "id": 17,
+                "productName": "Sea shell Keychain",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantitySize":[],
+                "quantityMm": [],
+                "quantityPcs": 1,
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "99",
+                "usage": [
+                    "Decorative"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Spritual product",
+        "products": [
+            {
+                "id": 18,
+                "productName": "Rudraksh maala",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantityPcs": 0,
+                "quantitySize": [],
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "",
+                "usage": [
+                    "Pooja purpose"
+                ],
+                "quantityMm": [
+                    {
+                        "sizeNum": "6",
+                        "amount": "120"
+                    },
+                    {
+                        "sizeNum": "7",
+                        "amount": "105"
+                    },
+                    {
+                        "sizeNum": "8",
+                        "amount": "100"
+                    },
+                    {
+                        "sizeNum": "9",
+                        "amount": "100"
+                    },
+                    {
+                        "sizeNum": "10",
+                        "amount": "100"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "productName": "Tulasi maala",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantitySize":[],
+                "quantityPcs": 0,
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "",
+                "usage": [
+                    "Pooja purpose"
+                ],
+                "quantityMm": [
+                    {
+                        "sizeNum": "6",
+                        "amount": "150"
+                    },
+                    {
+                        "sizeNum": "7",
+                        "amount": "175"
+                    },
+                    {
+                        "sizeNum": "8",
+                        "amount": "250"
+                    },
+                    {
+                        "sizeNum": "10",
+                        "amount": "340"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "productName": "Lotus maala",
+                "productType":"54 Beads maala",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantitySize":[],
+                "quantityMm": [],
+                "quantityPcs": 1,
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "49",
+                "usage": [
+                    "Pooja purpose"
+                ]
+            },
+            {
+                "id": 21,
+                "productName": "Lotus maala",
+                "productType":"108 Beads maala",
+                "scienceName": "",
+                "quantityKg": [],
+                "quantitySize":[],
+                "quantityMm": [],
+                "quantityPcs": 1,
+                "src": "assets/images/seashell/ss-bs-01.png",
+                "price": "98",
+                "usage": [
+                    "Pooja purpose"
+                ]
+            }
+        ]
+    }
+]

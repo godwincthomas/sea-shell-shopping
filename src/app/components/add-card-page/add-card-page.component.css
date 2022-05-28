@@ -1,0 +1,54 @@
+.select-btn-shop {
+    background: aliceblue;
+    padding: 10px 15px;
+    border: 1px solid gainsboro;
+    margin: 10px 10px;
+    outline: none;
+}
+
+.qua-div {
+    display: inline-block;
+}
+
+select.type-select {
+    width: 100%;
+    padding: 10px 15px;
+    background: aliceblue;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+.addcount-btn {
+    padding: 12px 5px;
+    border: 1px solid gainsboro;
+    border-radius: 0px;
+    background: aliceblue;
+    outline: none;
+}
+
+a.symbol {
+    margin: 5px 15px;
+}
+.dis-value {
+    margin: 0px 20px;
+}
+a.btn.add-btn{
+    border-radius: 0px;
+    padding: 10px 20px;
+    font-weight: 600;
+    outline: none;
+    background: black;
+    color: white;
+}
+.h5 {
+    font-size: 18px;
+    color: #0b9abc !important;
+}
+.acticeSize{
+    background: red !important;
+}
+@media screen and (max-width: 991px) {
+    button.select-btn-shop {
+        margin: 10px 5px;
+    }
+}

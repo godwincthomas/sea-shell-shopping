@@ -1,0 +1,31 @@
+<section class="related-product pd-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 mb-20">
+                <div class="text-center border-content">
+                    <h3>New Arrival</h3>
+                </div>
+                <owl-carousel-o [options]="customOptions">
+                    <ng-container *ngFor="let product of newarrivel">
+                        <ng-template carouselSlide [id]="product.id">
+                            <div class="shop-img">
+                                <img class="img-fluid" [src]="product.src" alt="">
+                                <span class="sale">NEW</span>
+                            </div>
+                            <div class="shop-content text-center">
+                                <h6 class="h6">{{product.productName}}</h6>
+                                <p class="amount"> <s class="mr-2">₹ 500.00</s> <span class="binkcolor">₹
+                                        {{product.value}}</span>
+                                </p>
+                                <a class="btn buy-btn" routerLinkActive="active"
+                                    routerLink="/shell/add-cart-page">BUY NOW <i
+                                        class="fa fa-fw fa-cart-arrow-down"></i></a>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>

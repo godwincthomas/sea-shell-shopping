@@ -1,0 +1,202 @@
+<div>
+    <!-- <section class="content-sml ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 home-view-other">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="router-title">
+                                <p class="text-trans  mb-0">Home
+                                    <span class="text-trans fnt-wig"><i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i>Checkout</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="shop-page pd-30">
+        <div class="container">
+            <div class="route">
+                <p class="text-trans"><b>Home / Shop / Checkout</b></p>
+            </div>
+            <div class="details">
+            <div class="col-md-12 col-sm-12 col-xs-12 abt">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <h6 class="fnt-wig">BILLING DETAILS</h6>
+                        <div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="First name *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Last name *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Company name(optional)">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="House number and street name *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Apartment, suite, unit, etc. (optional)">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Town/City *">
+                            </div>
+                            <div class="form-data">
+                                <select name="" id="Country" class="checkout-form" (change)="selectcountry($event)">
+                                    <option value="" disabled>Select Country</option>
+                                    <option value="{{list.country}}" *ngFor="let list of CountryList">
+                                        {{list.country}}</option>
+                                </select>
+                            </div>
+                            <div class="form-data">
+                                <select name="" id="State" class="checkout-form">
+                                    <option value="" disabled>Select State</option>
+                                    <option value="{{list}}" *ngFor="let list of statename">
+                                        {{list}}</option>
+                                </select>
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Postcode/ZIP *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Phone *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Email address *">
+                            </div>
+                            <div class="form-data">
+                                <input type="checkbox" class="mr-10" (change)="checkboxbtn($event)"> <span class="fnt-wig">Create an
+                                    account?</span>
+                            </div>
+                            <div *ngIf="account=='show'">
+                                <div class="form-data">
+                                    <input type="text" class="checkout-form" placeholder="Username">
+                                </div>
+                                <div class="form-data">
+                                    <input type="text" class="checkout-form" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-data">
+                                <span class="fnt-wig">SHIP TO A DIFFERENT ADDRESS?</span><span class="f-right"><label
+                                        class="switch">
+                                        <input type="checkbox" (change)="togglebtn($event)">
+                                        <span class="slider round"></span>
+                                </label>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div *ngIf="differentant=='show'">
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="First name *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Last name *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Company name(optional)">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="House number and street name *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Apartment, suite, unit, etc. (optional)">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Town/City *">
+                            </div>
+                            <div class="form-data">
+                                <select name="" id="Country" class="checkout-form" (change)="selectcountry($event)">
+                                    <option value="" disabled>Select Country</option>
+                                    <option value="{{list.country}}" *ngFor="let list of CountryList">
+                                        {{list.country}}</option>
+                                </select>
+                            </div>
+                            <div class="form-data">
+                                <select name="" id="State" class="checkout-form">
+                                    <option value="" disabled>Select State</option>
+                                    <option value="{{list}}" *ngFor="let list of statename">
+                                        {{list}}</option>
+                                </select>
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Postcode/ZIP *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Phone *">
+                            </div>
+                            <div class="form-data">
+                                <input type="text" class="checkout-form" placeholder="Email address *">
+                            </div>
+
+                        </div>
+                        <div>
+                            <div class="form-data">
+                                <textarea name="" id="" cols="30" rows="10" class="text-area" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="lab-cont">
+                            <h6 class="fnt-wig">ORDER SUMMARY</h6>
+                        </div>
+                        <div class="tog-btn">
+                            <button class="estmate" type="button" data-toggle="collapse" data-target="#tax-data" aria-controls="tax-data" aria-expanded="false" aria-label="Toggle navigation">1 ITEM IN
+                                CART <span class="f-right"><i class="fa fa-angle-down"
+                                        aria-hidden="true"></i></span></button>
+                        </div>
+                        <div class="details-data">
+                            <div class="collapse navbar-collapse tax-chek-detail" id="tax-data">
+                                <div class="row items">
+                                    <div class="col-md-2 col-sm-2 col-xs-2">
+                                        <img class="product-img" src="assets/images/seashell/ss-bs-01.png" alt="">
+                                    </div>
+
+                                    <div class="col-md-10 col-sm-10 col-xs-10">
+                                        <span class="fnt-wig">Sealshell-Blowing Shark</span><br />
+                                        <span class="activecolor">313.33</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="total-details tax-chek-detail">
+                                <div class="list-of-details">
+                                    <span class="f-left fnt-wig">Subtotal:</span><span class="f-right">536.36</span>
+                                </div>
+                                <div class="list-of-details">
+                                    <span class="f-left fnt-wig">GST 5% :</span><span class="f-right">29.48</span>
+                                </div>
+                            </div>
+                            <div class="grand-details">
+                                <div class="list-of-details">
+                                    <span class="f-left fnt-wig">Order Total:</span><span class="f-right activecolor">619.00</span>
+                                </div>
+                                <div class="list-of-details">
+                                    <input type="radio" name="" id="" class="mr-10" checked> <span>Instamojo - Pay
+                                        Online
+                                    </span>
+                                </div>
+                                <span>For COD you can purchase youngbee products from amazon or flipkart.</span>
+                                <div class="list-of-details text-center">
+                                    <a class="btn update-btn" (click)="initPay()">Place order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,194 @@
+<div>
+    <!-- <section class="content-sml">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 home-view-other">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="router-title">
+                                <p class="text-trans  mb-0">Home
+                                    <span class="text-trans fnt-wig"><i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i>Add-to-card</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="shop-page pd-30">
+        <div class="container">     
+            <div class="route">
+                <p class="text-trans"><b>Home / Shop / Add-To-Cart</b></p>
+            </div>  
+            <div class="details">
+                <div class="col-md-12 col-sm-12 col-xs-12 bb-1">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12 mb-20">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <h4 class="h4">{{disData.productName}}</h4>
+                                    <ul>
+                                        <li *ngFor="let list of disData.usage">
+                                            <p>{{list}}</p>
+                                        </li>
+                                    </ul>                                    
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pd-0">
+                                    <img class="img-fluid shop-img" src="{{disData.src}}" alt="">
+                                    <!-- <span class="sale">SALE</span> -->
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                    <div class="view-content">
+                                        <!-- <div class="type-div">
+                                            <h6>TYPE :</h6>
+                                            <button class="select-btn-shop">ABC</button><button
+                                                class="select-btn-shop">ABC</button>
+                                        </div> -->
+                                        <div class="type-div" *ngIf="quantitySize.length!=0">
+                                            <h6>SIZE :</h6>
+                                            <button class="select-btn-shop active{{i}}" *ngFor="let list1 of quantitySize;let i=index;" (click)="selectSize(i)">
+                                                {{list1.sizeNum}}
+                                            </button>                                            
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" *ngIf="quantityKg.length!=0">
+                                                <h6>KG :</h6>
+                                                <select name="" id="" class="type-select">
+                                                    <option  *ngFor="let list2 of quantityKg;let i=index;" value="{{list2.sizeNum}}">{{list2.sizeNum}} KG</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                                <h6>QUANTITY :</h6>
+                                                <div class="cont">
+                                                    <div class="addcount-btn mr-10">
+                                                        <a class="symbol" (click)="subrectcount(this.setvalue)">-</a>
+                                                        <span class="dis-value">{{this.setvalue}}</span>
+                                                        <a class="symbol" (click)="addcount(this.setvalue)">+</a>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+                                        </div>
+                                        <div class="type-div">
+                                            <h3 class="amount-add"> ₹
+                                                100.00
+                                            </h3>
+                                            <a class="btn add-btn" (click)="addcard()">
+                                                ADD TO CART</a>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="dis-cnt">
+                                        <span class="dis-left"></span>
+                                        <span class="dis">Flat 5% off</span>
+                                        <span class="dis-right"></span>
+                                    </div> -->
+                                    <!-- <p class="amount"> <s class="mr-2">₹ 500.00</s> <span class="binkcolor">₹ 100.00</span>
+                                    </p> -->
+    
+                                    <!-- <p>Availability : <span>76 In Stock</span></p>
+                                    <p>SKU : <span> N/A</span></p>
+                                    <p>Category : <span class="activecolor"> Sea-Shell</span></p> -->
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>     
+            
+            <!-- <div class="col-md-12 col-sm-12 col-xs-12 mt-3">
+                <div class="review-title">
+                    <h3>Reviews</h3>
+                </div>
+                <div class="review-content">
+                    <p>There are no reviews yet.</p>
+                    <p>Be the first to review “Blowing Shark”</p>
+                </div>
+                <div class="review-star">
+                    <div><span>Your rating *</span></div>
+                    <div class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
+                </div>
+                <div class="review">
+                    <form action="">
+                        <div class="form-data">
+                            <textarea name="" id="" cols="30" rows="10" class="review-form"
+                                placeholder="Your Review *"></textarea>
+                        </div>
+                        <div class="form-data">
+                            <input type="text" name="" id="" class="review-form" placeholder="Name *">
+                        </div>
+                        <div class="form-data">
+                            <input type="text" name="" id="" class="review-form" placeholder="Email *">
+                        </div>
+                        <div class="form-data">
+                            <a href="" class="btn update-btn">SUBMIT</a>
+                        </div>
+                    </form>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <section class="related-product pd-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 mb-20">
+                    <div class="text-center border-content">
+                        <h3>Related Products</h3>
+                    </div>
+                    <owl-carousel-o [options]="customOptions">
+                        <ng-container *ngFor="let product of GetProduct">
+                            <ng-template carouselSlide [id]="product.id">
+                                <div class="cardhover">
+                                    <div class="shop-img">
+                                        <img class="img-fluid" [src]="product.src" alt="">
+                                        <!-- <span class="sale">SALE</span> -->
+                                    </div>
+                                    <div class="shop-content text-center">
+                                        <h5 class="h5">{{product.productName}}</h5>
+                                        <h6 class="h6">{{product.productType}}</h6>
+                                        <p class="amount">
+                                            <!-- <s class="mr-2">₹ 500.00</s>  -->
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantityKg.length!=0">
+                                                ₹ {{product.quantityKg[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantitySize.length!=0">
+                                                ₹ {{product.quantitySize[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantityMm.length!=0">
+                                                ₹ {{product.quantityMm[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs!=0">₹
+                                                {{product.price}}</span>
+                                        </p>
+                                        <a class="btn buy-btn" routerLinkActive="active"
+                                            routerLink="/shell/shop-dashoard/add-cart-page">BUY NOW <i
+                                                class="fa fa-fw fa-cart-arrow-down"></i></a>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+
+                    </owl-carousel-o>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- <app-products></app-products> -->
+<app-footer></app-footer>

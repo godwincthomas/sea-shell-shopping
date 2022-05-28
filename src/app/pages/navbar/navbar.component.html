@@ -1,0 +1,166 @@
+<div class="all-nav">
+    <nav id="only-sys" class="navbar navbar-expand-lg bg-color-white">
+        <div class="container">
+            <div class="pos-left-inline my-2 my-lg-0">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <img routerLink="/shell/home-page" class="navimg" src="assets/images/logo12.png" alt="">
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-center">
+                <!-- <div class="search">
+                    <span>Buy SeaShell</span><br>
+                    <span class="list">(Powered by Jahabardeen SeaShell )</span><br>
+                    <span>Third Generation Merchants of SeaShell form Rameswaram Island</span>
+                </div> -->
+                <img class="img-fluid" src="assets/images/buyseashell2.svg" alt="">
+            </div>
+            <div class="pos-right-inline my-2 my-lg-0">
+                <div id="slideshow">
+                    <div>
+                        <img src="assets/images/since2.png">
+                    </div>
+                    <div>
+                        <img src="assets/images/Generation.png">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-color-blue">
+        <div class="container">
+            <a class="navbar-brand dip-none" routerLinkActive="active" routerLink="/shell/home-page"><img
+                    class="img-fluid logo-icon" src="assets/images/logo12.png" alt=""></a>
+            <h5 class="only-mob">SEASHELL SHOPPING</h5>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fa fa-bars bars" aria-hidden="true"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/shell/home-page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/shell/about-dashboard">About
+                            Us</a>
+                    </li>
+                    <li class="nav-item drop">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/shell/shop-dashboard">Shop</a>
+                        <div class="dropdown-menu-select">
+                            <a class="dropdown-item" (click)="shopPage('seashell')">Sea Shell</a>
+                            <a class="dropdown-item" (click)="shopPage('handicrafts')">Sea Shell Handicrafts</a>
+                            <a class="dropdown-item" (click)="shopPage('Spiritual')">Spiritual Items</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/shell/blog-dashboard">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLinkActive="active" routerLink="/shell/contact-page">Contact
+                            Us</a>
+                    </li>
+
+                    <li class="dip-none nav-item">
+                        <span class="nav-link i-con">
+                            <!-- <i data-bs-toggle="modal" data-bs-target="#_search" class="fa fa-fw fa-search"></i> -->
+                            <i routerLinkActive="active" routerLink="/shell/about-dashboard/myaccount-page"
+                                class="fa fa-fw fa-user"></i>
+                            <i class="fa fa-fw fa-phone"></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="pos-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-sm-2 dropdown">
+                    <li class="s-r">
+                        <i class="fa fa-fw fa-user f-r" routerLinkActive="active"
+                            routerLink="/shell/about-dashboard/myaccount-page"></i>
+                    </li>
+                    <li routerLinkActive="active" routerLink="/shell/shop-dashboard/cart-page" class="cardimg"> <img
+                            class="img-fluid f-r" src="assets/images/Bag-Icon.svg" alt=""><span
+                            class="count-number">1</span>
+                    </li>
+                    <li class="card-count"> Cart:<span class="num"> ₹ 0.00</span></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="display-top">
+        <p class="display-top" (click)="modalNav()">Delivering all across India. Click here to check if we are servicing
+            your pin code.</p>
+
+        <nav class="navbar navbar-expand-lg bg-color-blue">
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" routerLinkActive="active" routerLink="/shell/home-page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLinkActive="active" routerLink="/shell/about-dashboard">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item drop">
+                            <a class="nav-link" routerLinkActive="active" routerLink="/shell/shop-dashboard">Shop</a>
+                            <div class="dropdown-menu-select">
+                                <a class="dropdown-item" (click)="shopPage('seashell')">Sea Shell</a>
+                                <a class="dropdown-item" (click)="shopPage('handicrafts')">Sea Shell Handicrafts</a>
+                                <a class="dropdown-item" (click)="shopPage('Spiritual')">Spiritual Items</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLinkActive="active" routerLink="/shell/blog-dashboard">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLinkActive="active" routerLink="/shell/contact-page">Contact
+                                Us</a>
+                        </li>
+
+                        <li class="dip-none nav-item">
+                            <span class="nav-link i-con">
+                                <i routerLinkActive="active" routerLink="/shell/about-dashboard/myaccount-page"
+                                    class="fa fa-fw fa-user"></i>
+                                <i class="fa fa-fw fa-phone"></i>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pos-inline my-2 my-lg-0">
+                    <ul class="navbar-nav mr-sm-2 dropdown">
+                        <li class="s-r">
+                            <i class="fa fa-fw fa-user f-r" routerLinkActive="active"
+                                routerLink="/shell/about-dashboard/myaccount-page"></i>
+                        </li>
+                        <li routerLinkActive="active" routerLink="/shell/shop-dashboard/cart-page" class="cardimg">
+                            <img class="img-fluid f-r" src="assets/images/Bag-Icon.svg" alt=""><span
+                                class="count-number">1</span>
+                        </li>
+                        <li class="card-count"> Cart:<span class="num"> ₹ 0.00</span></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content text-center">
+            <h3 class="mb-20">BuySeaShell</h3>
+            <form action="">
+                <div class="div-form">
+                    <label for="" class="mr-3">Enter Area Pincode</label>
+                    <input type="number" class="form-input" placeholder="Enter Area Pincode">
+                </div>
+            </form>
+            <div class="pd-10">
+                <a class="btn buy-btn">Submit</a>
+            </div>
+        </div>
+    </div>
+</div>

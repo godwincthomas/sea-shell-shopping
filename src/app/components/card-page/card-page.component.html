@@ -1,0 +1,136 @@
+<div>
+    <!-- <section class="content-sml ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 home-view-other">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="router-title">
+                                <p class="text-trans  mb-0">Home
+                                    <span class="text-trans fnt-wig"><i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i>Cart</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="shop-page pd-30">
+        <div class="container">
+            <div class="route">
+                <p class="text-trans"><b>Home / Shop / Cart</b></p>
+            </div>
+            <div class="details">
+                <div class="col-md-12 col-sm-12 col-xs-12 abt">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12 table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <th>Product Name</th>
+                                    <th class="text-center">Unit Price</th>
+                                    <th class="text-center">Quentity</th>
+                                    <th class="text-center">Amount</th>
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img class="product-img" src="assets/images/seashell/ss-bs-01.png" alt="">
+                                            sealshell
+                                        </td>
+                                        <td class="text-center activecolor">100.00</td>
+                                        <td class="text-center"><span class="count-btn"><a class="symbol"
+                                                    (click)="subrectcount(this.setvalue)">-</a> <span
+                                                    class="dis-value">{{this.setvalue}}</span> <a class="symbol"
+                                                    (click)="addcount(this.setvalue)">+</a></span>
+                                        </td>
+                                        <td class="text-center "> <span class="activecolor mr-10">100.00</span> <i
+                                                class="fa fa-trash-o" aria-hidden="true"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-input" placeholder="Coupon code"></td>
+
+                                        <td><a class="btn update-btn">Apply Coupon</a></td>
+                                        <td></td>
+                                        <td> <span class="mr-10">UPDATE CARD</span> <i
+                                                class="fa fa-caret-right activecolor" aria-hidden="true"></i></td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="togbtn">
+                                <button class="estmate" type="button" data-toggle="collapse" data-target="#tax-data"
+                                    aria-controls="tax-data" aria-expanded="false"
+                                    aria-label="Toggle navigation">ESTMATE
+                                    SHIPPING AND TAX <span class="f-right"><i class="fa fa-angle-down"
+                                            aria-hidden="true"></i></span></button>
+                            </div>
+                            <div class="details-data">
+                                <div class="collapse navbar-collapse tax-detail" id="tax-data">
+                                    <form action="">
+                                        <div class="form-data">
+                                            <select class="form-input" aria-placeholder="Country"
+                                                (change)="selectcountry($event)">
+                                                <option value="" disabled>Select Country</option>
+                                                <option value="{{list.country}}" *ngFor="let list of CountryList">
+                                                    {{list.country}}</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-data">
+                                            <select class="form-input" aria-placeholder="State">
+                                                <option value="" disabled>Select State</option>
+                                                <option value="{{list}}" *ngFor="let list of statename">
+                                                    {{list}}</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-data">
+                                            <input type="text" class="form-input" placeholder="Postcode / ZIP">
+                                        </div>
+                                        <div class="form-data"><a class="btn update-btn">UPDATE</a></div>
+
+                                    </form>
+                                </div>
+                                <div class="total-details tax-detail">
+                                    <div class="list-of-details">
+                                        <span class="f-left fnt-wig">Subtotal:</span><span class="f-right">536.36</span>
+                                    </div>
+                                    <div class="list-of-details">
+                                        <span class="f-left fnt-wig">Shipping & Handling:</span><span
+                                            class="f-right">Free!
+                                        </span>
+                                    </div>
+                                    <div class="list-of-details">
+                                        <span class="f-left fnt-wig">GST 5% (Estimated For India):</span><span
+                                            class="f-right">29.48</span>
+                                    </div>
+                                    <div class="list-of-details">
+                                        <span class="f-left fnt-wig">Grand Total:</span><span
+                                            class="f-right">619.00</span>
+                                    </div>
+                                </div>
+                                <div class="grand-details">
+                                    <div class="list-of-details">
+                                        <span class="f-left fnt-wig">Grand Total:</span><span
+                                            class="f-right activecolor">619.00</span>
+                                    </div>
+                                    <div class="list-of-details text-center">
+                                        <a class="btn update-btn" routerLinkActive="active"
+                                            routerLink="/shell/shop-dashboard/checkout-page">Proceed to checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,141 @@
+<section class="shopping-gallery pd-60">
+    <div class="container">
+        <h3 class="mb-20 featured-product fnt-family">Featured Products</h3>
+        <div class="top-content">
+            <div class="shell-div">
+                <div class="feat-header">
+                    <h4 class="fnt-wig">SEA SHELL</h4>
+                    <P>Sea shells also provide relief from stress and offer a protective shield. Shells are also a
+                        symbol of good communication, positive and healthy relationships and prosperity.
+                    </P>
+
+                </div>
+                <div class="corl-div left-span">
+                    <owl-carousel-o [options]="customOptions">
+                        <ng-container *ngFor="let product of SeaShellArray">
+                            <ng-template carouselSlide [id]="product.id">
+                                <div class="cardhover">
+                                    <div class="shop-img">
+                                        <img class="img-fluid" [src]="product.src" alt="">
+                                        <span class="add-card-hover">
+                                            <i class="fa fa-fw fa-cart-arrow-down" (click)="addcard()"></i>
+                                        </span>
+                                        <!-- <span class="sale">SALE</span> -->
+                                    </div>
+                                    <div class="shop-content text-center">
+                                        <h5 class="h5">{{product.productName}}</h5>
+                                        <h6 class="h6">{{product.productType}}</h6>
+                                        <p class="amount">
+                                            <!-- <s class="mr-2">₹ 500.00</s>  -->
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantityKg.length!=0">
+                                                ₹ {{product.quantityKg[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantitySize.length!=0">
+                                                ₹ {{product.quantitySize[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs!=0">₹
+                                                {{product.price}}</span>
+                                        </p>
+                                        <a class="btn buy-btn" (click)="buyNowBtn(product.id,'seashell')">BUY NOW <i
+                                                class="fa fa-fw fa-cart-arrow-down"></i></a>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+                    </owl-carousel-o>
+                </div>
+            </div>
+            <div class="shell-div">
+                <div class="feat-header img-span">
+                    <h4 class="fnt-wig">SEA SHELL HANDICRAFTS</h4>
+                    <P>Sea Shell Handicrafts are most home decor items in your home or office desk.
+                        If you are looking for home decoration or an office decoration item then this will be perfect
+                        for, office desk, such as a bookshelf, fireplace mantel, TV cabinet, windowsill, nightstands,
+                        table, desk, desktop, coffee corner bar table, entertainment center, etc.</P>
+                </div>
+                <div class="corl-div">
+                    <owl-carousel-o [options]="customOptions">
+                        <ng-container *ngFor="let product of PearlsArray">
+                            <ng-template carouselSlide [id]="product.id">
+                                <div class="cardhover">
+                                    <div class="shop-img">
+                                        <img class="img-fluid" [src]="product.src" alt="">
+                                        <span class="add-card-hover">
+                                            <i class="fa fa-fw fa-cart-arrow-down" (click)="addcard()"></i>
+                                        </span>
+                                        <!-- <span class="sale">SALE</span> -->
+                                    </div>
+                                    <div class="shop-content text-center">
+                                        <h5 class="h5">{{product.productName}}</h5>
+                                        <h6 class="h6">{{product.productType}}</h6>
+                                        <p class="amount">
+                                            <!-- <s class="mr-2">₹ 500.00</s>  -->
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantityKg.length!=0">
+                                                ₹ {{product.quantityKg[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantitySize.length!=0">
+                                                ₹ {{product.quantitySize[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs!=0">₹
+                                                {{product.price}}</span>
+                                        </p>
+                                        <a class="btn buy-btn" (click)="buyNowBtn(product.id,'handicrafts')">BUY NOW <i
+                                                class="fa fa-fw fa-cart-arrow-down"></i></a>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+
+                    </owl-carousel-o>
+                </div>
+            </div>
+            <div class="shell-div">
+                <div class="feat-header right-div">
+                    <h4 class="fnt-wig">SPIRITUAL ITEMS</h4>
+                    <P>Sea shells are one such object which invite good vibes into your home or the workplace. People
+                        who holiday on seashores inevitably pickup shells from the beach, which they casually place
+                        around the home, unaware of its powers.
+                    </P>
+                </div>
+                <div class="corl-div">
+                    <owl-carousel-o [options]="customOptions">
+                        <ng-container *ngFor="let product of SpiritualArray">
+                            <ng-template carouselSlide [id]="product.id">
+                                <div class="cardhover">
+                                    <div class="shop-img">
+                                        <img class="img-fluid" [src]="product.src" alt="">
+                                        <span class="add-card-hover">
+                                            <i class="fa fa-fw fa-cart-arrow-down" (click)="addcard()"></i>
+                                        </span>
+                                        <!-- <span class="sale">SALE</span> -->
+                                    </div>
+                                    <div class="shop-content text-center">
+                                        <h5 class="h5">{{product.productName}}</h5>
+                                        <h6 class="h6">{{product.productType}}</h6>
+                                        <p class="amount">
+                                            <!-- <s class="mr-2">₹ 500.00</s>  -->
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantityKg.length!=0">
+                                                ₹ {{product.quantityKg[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantitySize.length!=0">
+                                                ₹ {{product.quantitySize[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs==0 && product.quantityMm.length!=0">
+                                                ₹ {{product.quantityMm[0].amount}}
+                                            </span>
+                                            <span class="binkcolor" *ngIf="product.quantityPcs!=0">₹
+                                                {{product.price}}</span>
+                                        </p>
+                                        <a class="btn buy-btn" >BUY NOW <i
+                                                class="fa fa-fw fa-cart-arrow-down"></i></a>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+
+                    </owl-carousel-o>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

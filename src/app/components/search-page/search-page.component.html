@@ -1,0 +1,70 @@
+<!-- search nav -->
+
+<div class="pt-90">
+    <section class="content-sml">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 home-view-other">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="router-title">
+                                <p class="text-trans  mb-0">Home
+                                    <span class="text-trans fnt-wig"><i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i>Search</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="shop-page pd-60 shopping-gallery">
+        <div class="container ">
+            <h3 class="mb-20 featured-product fnt-family">Search</h3>
+            <div class="search-content">
+                <div class="col-md-12">
+                    <h4 class="m-tb-10">Your search for "{{this.SearchValue}}" revealed the following:</h4>
+                    <div class="m-tb-10 p-relative">
+                        <input type="text" name="" #searchValue class="search-form" placeholder="Seach all products">
+                        <i class="fa fa-fw fa-search search-i" (click)="searcPage(searchValue.value)"></i>
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 mb-20">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 mb-20 buynow-card cardhover"
+                            *ngFor="let product of seashellList">
+                            <div class="shop-img">
+                                <img class="img-fluid" src="assets/images/{{product.picture}}" alt="">
+                                <span class="sale">SALE</span>
+                            </div>
+                            <div class="shop-content">
+                                <h6 class="h6">{{product.productName}}</h6>
+                                <div class="dis-cnt">
+                                    <span class="dis-left"></span>
+                                    <span class="dis">Flat {{product.discount}}% off</span>
+                                    <span class="dis-right"></span>
+                                </div>
+                                <p class="amount"> <s class="mr-2">₹ 500.00</s> <span class="binkcolor">₹
+                                        {{product.value}}</span>
+
+                            </div>
+                            <div class="animated flip hover-active text-center">
+                                <a class=" btn buy-btn" routerLinkActive="active"
+                                    routerLink="/shell/add-cart-page">BUY
+                                    NOW <i class="fa fa-fw fa-cart-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+<!-- <app-products></app-products> -->
+<app-footer></app-footer>

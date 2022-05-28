@@ -1,0 +1,137 @@
+#carouselExampleIndicators {
+    position: absolute !important;
+    top: 0;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.content {
+    padding-top: 0px !important;
+}
+
+.pt-100 {
+    padding-top: 120px;
+}
+
+
+
+/* carousel slider */
+
+.carousel-inner .item {
+    height: 100vh;
+    position: relative;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+.carousel-caption {
+    padding-bottom: 140px;
+}
+
+.carousel-caption h2 {
+    /* font-size: 50px; */
+    text-transform: uppercase;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+
+i.far.fa-calendar {
+    color: gold;
+}
+
+.fnt-wig {
+    font-family: "frozen", serif;   
+    background: #3ad4de;
+    background: linear-gradient( 59deg,#e91e63, #020202 );
+    -webkit-background-clip: text;
+    background-size: contain;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+    font-weight: 900; 
+}
+.fnt-wig::before {
+    content: attr(data-heading);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    mix-blend-mode: screen;
+    -webkit-animation: shine 1s infinite;
+    animation: shine 1s infinite;
+    background-size: 200%;
+}
+button.shopbtn{
+    background: black;
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+@media screen and (max-width: 1024px) {
+    .carousel-inner .item {
+        height: 87vh;
+    }
+
+    .carousel-caption {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-inner .item {
+        height: 81vh;
+    }
+}
+@media screen and (min-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 576px) {
+    #carouselExampleIndicators {
+        height: 100vh;
+    }
+    .content {
+        height: 100vh !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #carouselExampleIndicators {
+        height: 75vh;
+    }
+
+    .carousel-item img {
+        height: 80vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .carousel-caption{
+        padding-bottom: 115px;
+    }
+    .content {
+        height: 75vh !important;
+    }
+    .h3{
+        font-size: 20px;
+    }
+}

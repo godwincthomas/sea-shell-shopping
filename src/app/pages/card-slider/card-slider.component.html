@@ -1,0 +1,115 @@
+<section class="shopping-gallery pd-60">
+    <div class="container">
+        <h3 class="mb-20 featured-product fnt-family">Featured Products</h3>
+        <div class="row">
+            <div class="col-md-12 top-content ">
+                <div class="row">
+                    <!-- <div class="col-md-2 col-sm-2 col-xs-2 pd-0">
+                        <div class="top-btn btn1" (click)="allopen()">
+                            <a>All </a>
+                            <i class="fa fa-shopping-cart cardimg" aria-hidden="true"></i>
+                        </div>
+                        <div class="top-btn btn2" (click)="seashellopen()">
+                            <a>Sea Shell</a>
+                        </div>
+                        <div class="top-btn btn3" (click)="pearlsopen()">
+                            <a>Pearls</a>
+                        </div>
+                        <div class="top-btn btn4" (click)="spiritualopen()">
+                            <a>Spiritual</a>
+                        </div>
+                    </div> -->
+                    <div class="col-md-12 col-sm-12 col-xs-12 pd-15 productList">
+                        <!-- *ngIf="seashellshow=='show'" -->
+                        <div class="mb-10">
+                            <div class="product-title-h">
+                                <h5 class="fnt-wig">Sea-Shell Products : </h5>
+                            </div>
+                            <owl-carousel-o [options]="customOptions">
+                                <ng-container *ngFor="let product of seashell">
+                                    <ng-template carouselSlide [id]="product.id">
+                                        <div class="cardhover">
+                                            <div class="shop-img">
+                                                <img class="img-fluid" [src]="product.src" alt="">
+                                                <span class="sale">SALE</span>
+                                            </div>
+                                            <div class="shop-content text-center">
+                                                <h6 class="h6">{{product.productName}}</h6>
+                                                <p class="amount"> <s class="mr-2">₹ 500.00</s> <span
+                                                        class="binkcolor">₹
+                                                        {{product.value}}</span>
+                                                </p>
+                                                <a class="btn buy-btn" routerLinkActive="active"
+                                                    routerLink="/shell/shop-dashboard/add-cart-page">BUY NOW <i
+                                                        class="fa fa-fw fa-cart-arrow-down"></i></a>
+                                            </div>
+                                        </div>
+                                    </ng-template>
+                                </ng-container>
+
+                            </owl-carousel-o>
+                        </div>
+                        <!-- *ngIf="pearls=='show'" -->
+                        <div class="mb-10">
+                            <div class="product-title-h">
+                                <h5 class="fnt-wig">Pearls Products : </h5>
+                            </div>
+                            <owl-carousel-o [options]="customOptions">
+                                <ng-container *ngFor="let product of pearlsproduct">
+                                    <ng-template carouselSlide [id]="product.id">
+                                        <div class="cardhover">
+                                            <div class="shop-img">
+                                                <img class="img-fluid" [src]="product.src" alt="">
+                                                <span class="sale">SALE</span>
+                                            </div>
+                                            <div class="shop-content text-center">
+                                                <h6 class="h6">{{product.productName}}</h6>
+                                                <p class="amount"> <s class="mr-2">₹ 500.00</s> <span
+                                                        class="binkcolor">₹
+                                                        {{product.value}}</span>
+                                                </p>
+                                                <a class="btn buy-btn" routerLinkActive="active"
+                                                    routerLink="/shell/shop-dashoard/add-cart-page">BUY NOW <i
+                                                        class="fa fa-fw fa-cart-arrow-down"></i></a>
+                                            </div>
+                                        </div>
+                                    </ng-template>
+                                </ng-container>
+
+                            </owl-carousel-o>
+                        </div>
+                        <!-- *ngIf="spiritual=='show'" -->
+                        <div class="mb-10">
+                            <div class="product-title-h">
+                                <h5 class="fnt-wig">Spiritual Products : </h5>
+                            </div>
+                            <owl-carousel-o [options]="customOptions">
+                                <ng-container *ngFor="let product of spiritualproduct">
+                                    <ng-template carouselSlide [id]="product.id">
+                                        <div class="cardhover">
+                                            <div class="shop-img">
+                                                <img class="img-fluid" [src]="product.src" alt="">
+                                                <span class="sale">SALE</span>
+                                            </div>
+                                            <div class="shop-content text-center">
+                                                <h6 class="h6">{{product.productName}}</h6>
+                                                <p class="amount"> <s class="mr-2">₹ 500.00</s> <span
+                                                        class="binkcolor">₹
+                                                        {{product.value}}</span>
+                                                </p>
+                                                <a class="btn buy-btn" routerLinkActive="active"
+                                                    routerLink="/shell/shop-dashoard/add-cart-page">BUY NOW <i
+                                                        class="fa fa-fw fa-cart-arrow-down"></i></a>
+                                            </div>
+                                        </div>
+                                    </ng-template>
+                                </ng-container>
+
+                            </owl-carousel-o>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,382 @@
+<div>
+    <!-- <section class="content-sml">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 home-view-other">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="router-title">
+                                <p class="text-trans mb-0">Home
+                                    <span class="text-trans fnt-wig"><i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i>My
+                                        Account</span>
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="shop-page pd-60">
+        <div class="container">
+            <h3 class="fnt-family">My Account</h3>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-12 mb-20 myaccout-side-bar">
+                        <a class="myaccount-top-btn act" (click)="accountbtn()">Account Detail</a>
+                        <a class="myaccount-top-btn reg" (click)="regbtn()">Register</a>
+                        <a class="myaccount-top-btn log" (click)="logbtn()">Login</a>
+                        <a class="myaccount-top-btn ord" (click)="orderbtn()">Order List</a>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 mb-20 myaccout-form-bar" *ngIf="account_show=='1'" id="sign_in">
+                        <div class="bb-1 cont-tit">
+                            <h5 class="fnt-wig mb-0">Account Details</h5>
+                        </div>
+                        <div class="cont-data">
+                            <section class="personal-detail bb-1">
+                                <div class="text-center mt-3 mb-3">
+                                    <h5 class="fnt-wig">Personal Details</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1 p-0"></div>
+                                    <div class="col-md-5 col-sm-6 col-xs-12 form-list">
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">User Name</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter user name">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Phone Number</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter phone number">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-sm-6 col-xs-12 form-list">
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Password</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="password" name="" id="" class="form-accout" placeholder="*******" disabled>
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Email ID</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter mail id">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                </div>
+                                <div class="form-data text-center">
+                                    <a class="btn update-btn">Submit</a>
+                                </div>
+                            </section>
+                            <section class="billing-detail">
+                                <div class="text-center mt-3 mb-3">
+                                    <h5 class="fnt-wig">Billing Address</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-5 col-sm-6 col-xs-12 form-list">
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">First Name</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter first name">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Last Name</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter last name">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Company Name(optional)</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter company Name">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">House number and street name</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter house number">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Apartment, suite, unit, etc. (optional)</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter apartment Name">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Town/City Name</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter town/city name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-sm-6 col-xs-12 form-list">
+
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Country</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <select name="" id="Country" class="form-accout" (change)="selectcountry($event)">
+                                                    <option value="" disabled>Select Country</option>
+                                                    <option value="{{list.country}}" *ngFor="let list of CountryList">
+                                                        {{list.country}}</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">State</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <select name="" id="State" class="form-accout">
+                                                    <option value="" disabled>Select State</option>
+                                                    <option value="{{list}}" *ngFor="let list of statename">
+                                                        {{list}}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Postcode/ZIP</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="number" name="" id="" class="form-accout" placeholder="Enter postcode">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Phone Number</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="number" name="" id="" class="form-accout" placeholder="Enter phone number">
+                                            </div>
+                                        </div>
+                                        <div class="row form-data">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 lbl-text">
+                                                <span class="user-lable">Email ID</span><span class="text-danger">*</span>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 ps-0">
+                                                <input type="text" name="" id="" class="form-accout" placeholder="Enter email id">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-1"></div>
+                                </div>
+                                <div class="form-data text-center">
+                                    <a class="btn update-btn">Submit</a>
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 mb-20 myaccout-form-bar" *ngIf="signup_show=='1'" id="
+                        sign_up">
+                        <div class="bb-1 cont-tit">
+                            <h5 class="fnt-wig mb-0">Register Details</h5>
+                        </div>
+                        <div class="cont-data">
+                            <form action="#" method="post" [formGroup]="RegisterForm">
+                                <div class="accout-form">
+                                    <span>User name</span><span class="text-danger">*</span>
+                                    <input type="text" class="form-accout" name="username" formControlName="username" [ngClass]="{ 'is-invalid': regValue && regForm.username.errors }" placeholder="Enter user name" required>
+                                    <div *ngIf="regValue && regForm.username.errors" class="invalid-feedback">
+                                        <div *ngIf="regForm.username.errors.required">Username is required</div>
+                                    </div>
+                                </div>
+                                <div class="accout-form">
+                                    <span>Phone number</span><span class="text-danger">*</span>
+                                    <input type="number" class="form-accout" name="phonenumber" formControlName="phonenumber" [ngClass]="{ 'is-invalid': regValue && regForm.phonenumber.errors }" placeholder="Enter phone number" required>
+                                    <div *ngIf="regValue && regForm.phonenumber.errors" class="invalid-feedback">
+                                        <div *ngIf="regForm.phonenumber.errors.required">Phone number is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accout-form">
+                                    <span>Email ID</span><span class="text-danger">*</span>
+                                    <input type="email" class="form-accout" name="email" formControlName="email" [ngClass]="{ 'is-invalid': regValue && regForm.email.errors }" placeholder="Email" required>
+                                    <div *ngIf="regValue && regForm.email.errors" class="invalid-feedback">
+                                        <div *ngIf="regForm.email.errors.required">Email ID is required</div>
+                                    </div>
+                                </div>
+                                <div class="accout-form">
+                                    <span>Password</span><span class="text-danger">*</span>
+                                    <input type="password" class="form-accout" name="password" formControlName="password" [ngClass]="{ 'is-invalid': regValue && regForm.password.errors }" placeholder="Password" required>
+                                    <div *ngIf="regValue && regForm.password.errors" class="invalid-feedback">
+                                        <div *ngIf="regForm.password.errors.required">Password is required</div>
+                                    </div>
+                                </div>
+                                <div class="accout-form">
+                                    <span>Conform Password</span><span class="text-danger">*</span>
+                                    <input type="password" class="form-accout" name="conformpassword" formControlName="conformpassword" [ngClass]="{ 'is-invalid': regValue && regForm.conformpassword.errors }" placeholder="Conform password" required>
+                                    <div *ngIf="regValue && regForm.conformpassword.errors" class="invalid-feedback">
+                                        <div *ngIf="regForm.conformpassword.errors.required">Conform password is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="f-right mb-20">
+                                    <a class="btn update-btn" (click)="registerForm()">Register</a>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 mb-20 myaccout-form-bar" *ngIf="signin_show=='1'" id="sign_in">
+                        <div class="bb-1 cont-tit">
+                            <h5 class="fnt-wig mb-0">Login Details</h5>
+                        </div>
+                        <div class="cont-data">
+                            <form action="#" method="post" [formGroup]="LoginForm">
+                                <div class="accout-form">
+                                    <span>Email ID</span><span class="text-danger">*</span>
+                                    <input type="email" class="form-accout" name="email" formControlName="email" [ngClass]="{ 'is-invalid': logValue && logForm.email.errors }" placeholder="Email" required>
+                                    <div *ngIf="logValue && logForm.email.errors" class="invalid-feedback">
+                                        <div *ngIf="logForm.email.errors.required">Email ID is required</div>
+                                    </div>
+                                </div>
+                                <div class="accout-form">
+                                    <span>Password</span><span class="text-danger">*</span>
+                                    <input type="password" class="form-accout" name="password" formControlName="password" [ngClass]="{ 'is-invalid': logValue && logForm.password.errors }" placeholder="Password" required>
+                                    <div *ngIf="logValue && logForm.password.errors" class="invalid-feedback">
+                                        <div *ngIf="logForm.password.errors.required">Password is required</div>
+                                    </div>
+                                </div>
+                                <div class="f-right mb-20">
+                                    <a class="btn update-btn mr-10" (click)="loginForm()">Login</a>
+                                    <a>Forgot your password?</a>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 mb-20 myaccout-form-bar" *ngIf="order_show=='1'" id="order_list">
+                        <div class="bb-1 cont-tit">
+                            <h5 class="fnt-wig mb-0">Order Details</h5>
+                        </div>
+                        <div class="cont-data table-responsive">
+                            <!--Table-->
+                            <table class="table table-hover table-fixed">
+
+                                <!--Table head-->
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Product Name</th>
+                                        <th>Unit Price</th>
+                                        <th>Quentity</th>
+                                        <th>Amount</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <!--Table head-->
+
+                                <!--Table body-->
+                                <tbody>
+                                    <tr routerLinkActive="active" routerLink="/shell/add-cart-page">
+                                        <th scope="row">1</th>
+                                        <th>Blowing Shark</th>
+                                        <td>100.00</td>
+                                        <td>1</td>
+                                        <td>100.00</td>
+                                        <td>Delivery</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <th>Ganesh shank</th>
+                                        <td>100.00</td>
+                                        <td>1</td>
+                                        <td>100.00</td>
+                                        <td>Delivery</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <th>Valmburi shank - Colour</th>
+                                        <td>100.00</td>
+                                        <td>1</td>
+                                        <td>100.00</td>
+                                        <td>Delivery</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <th>Bracelet</th>
+                                        <td>100.00</td>
+                                        <td>1</td>
+                                        <td>100.00</td>
+                                        <td>Delivery</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <th>single pearls</th>
+                                        <td>100.00</td>
+                                        <td>1</td>
+                                        <td>100.00</td>
+                                        <td>Delivery</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <th>Raw pearl</th>
+                                        <td>100.00</td>
+                                        <td>1</td>
+                                        <td>100.00</td>
+                                        <td>Delivery</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <th>Spadika Mala</th>
+                                        <td>100.00</td>
+                                        <td>1</td>
+                                        <td>100.00</td>
+                                        <td>Delivery</td>
+                                    </tr>
+                                </tbody>
+                                <!--Table body-->
+
+                            </table>
+                            <!--Table-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+<!-- <app-products></app-products> -->
+<app-footer></app-footer>
